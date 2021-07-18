@@ -1,5 +1,4 @@
 .button {
-  margin-top: 16px;
   padding: 0 32px;
   height: 50px;
   border-radius: 8px;
@@ -16,10 +15,6 @@
   cursor: pointer;
 
   transition: filter 0.2s;
-
-  img {
-    margin-right: 8px;
-  }
 
   &:not(:disabled):hover {
     filter: brightness(0.9);
