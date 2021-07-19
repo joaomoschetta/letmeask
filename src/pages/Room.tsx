@@ -10,6 +10,7 @@ import logoImg from '../assets/images/logo.svg'
 // Components
 import { Button } from '../components/Button'
 import { RoomCode } from '../components/RoomCode';
+import { Question } from '../components/Question';
 
 // Styles
 import '../styles/room.scss';
@@ -133,9 +134,16 @@ export function Room() {
           </div>
         </form>
 
-        {
-          //TODO: LIST QUESTIONS
-        }
+        <div className="question-list">
+          {questions.map(question => {
+            return (
+              <Question 
+                content={question.content}
+                author={question.author}
+              />
+            );
+          })}
+        </div>
       </main>
     </div>
   )
