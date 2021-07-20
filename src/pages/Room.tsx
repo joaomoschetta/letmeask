@@ -138,6 +138,7 @@ export function Room() {
           {questions.map(question => {
             return (
               <Question 
+                key={question.id}
                 content={question.content}
                 author={question.author}
               />
