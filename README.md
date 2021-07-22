@@ -13,7 +13,7 @@
 <br>
 
 ## ❓ **Sobre**
----
+
 Projeto desenvolvido durante a NLW-06, evento oferecido pela [Rocketseat 🚀](https://blog.rocketseat.com.br/primeira-next-level-week/).<br>
 Se trata de uma plataforma de Q&A em tempo real. Você pode criar uma sala,<br>
 e compartilhar o código de acesso com outros usuários. Projeto realizado<br>
@@ -22,7 +22,7 @@ para adquirir conhecimentos na biblioteca React.js e no serviço Firebase.<br>
 <br>
 
 ## 💻 **Tecnologias**
----
+
 - **[React](https://reactjs.org/)**
 - **[Typescript](https://www.typescriptlang.org/)**
 - **[Firebase](https://firebase.google.com/)**
