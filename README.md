@@ -2,8 +2,6 @@
   <img alt="Letmeask" src=".github/logo.svg" width="180px" />
 </h1>
 
----
-
 <div align="center">
   <img alt="Showcase" align="center" src=".github/showcase.gif" width="90%" />
 </div>
