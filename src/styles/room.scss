@@ -10,8 +10,13 @@
       justify-content: space-between;
       align-items: center;
 
-      > img {
-        max-height: 45px;
+      a {
+        display: flex;
+        align-items: center;
+
+        img {
+          max-height: 45px;
+        }
       }
 
         > div {
